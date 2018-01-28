@@ -9,6 +9,7 @@ blog_theme: dark # Or use dark
 # Profile information
 name: Gaurav Kumar
 tagline: Deep learning researcher
+website: gkumar.in
 about-description: # Add Discription
 pic: 79.png  # Place a 200x200 picture inside /assets/img/ folder and provide the name of the file below
 
