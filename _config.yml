@@ -1,0 +1,49 @@
+title: Gaurav Kumar
+description: > # this means to ignore newlines until "baseurl:"
+  civil engineering student. aspiring deep learning scientist.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: ':title/'
+blog_theme: dark # Or use dark
+
+# Profile information
+name: Gaurav Kumar
+tagline: Deep learning researcher
+about-description: # Add Discription
+pic: 79.png  # Place a 200x200 picture inside /assets/img/ folder and provide the name of the file below
+
+# Contact links
+email: gk972.uce2014[at]gmail.com # Add your Email address
+phone: on-demand # Add your Phone number
+linkedin: gauravk97 # Add your Linkedin handle
+github: gauravk97 # Add your Github handle
+twitter: '@gauravk97' # Add your Twitter handle
+
+# Tracker
+analytics:
+
+# Comments
+discus-identifier: # Add your Disqus identifier
+
+# Important settings
+assets:
+  sources:
+    - assets/fonts
+    - assets/img
+    - assets/js
+    - assets/stylesheets
+
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+gems:
+  - jekyll-feed
+  - jekyll-assets
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+include: [_pages]
